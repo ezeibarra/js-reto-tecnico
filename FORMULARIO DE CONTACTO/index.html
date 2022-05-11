@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>FORMULARIO DE CONTACTO</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <video
+      autoplay="autoplay"
+      muted="muted"
+      loop="loop"
+      src="https://a.storyblok.com/f/123025/x/e307292a97/teaser-reel-garaje-v2.mp4"
+    ></video>
+    <h1 style="text-align: center; padding-top: 10vh; padding-bottom: 5vh">
+      <div class="bg-title">Formulario de Contacto - Garaje de Ideas</div>
+    </h1>
+    <form class="form" onsubmit="handleSubmit()">
+      <input class="field" type="text" id="name" placeholder="Nombre" />
+      <input class="field" type="text" id="email" placeholder="Email" />
+      <select class="field" id="interest">
+        <option disabled selected value="">Selecione un area de interes..</option>
+        <option value="datos" >Datos</option>
+        <option value="diseno" >Dise&ntildeo</option>
+        <option value="desarrollo" >Desarrollo</option>
+        <option value="analisis" >Analisis</option>
+      </select>
+      <input class="field" type="text" id="message" placeholder="Mensaje" />
+      <button class="btn-submit">Enviar</button>
+    </form>
+    <div id="aside">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="icon-close" onclick="closeAside()" >
+        <path
+          d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+        />
+      </svg>
+      <div style="text-align: center;" >
+        <h2>USUARIOS</h2>
+          <h3>Juan Carlos</h3>
+          <h3>Maria</h3>
+      </div>
+    </div>
+  </body>
+</html>
